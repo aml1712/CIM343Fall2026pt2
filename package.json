@@ -1,0 +1,25 @@
+{
+  "name": "cim343fall2026pt2",
+  "version": "1.0.0",
+  "description": "Part 2 of Front End Fundamentals Course Fall 2026",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aml1712/CIM343Fall2026pt2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aml1712/CIM343Fall2026pt2/issues"
+  },
+  "homepage": "https://github.com/aml1712/CIM343Fall2026pt2#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
