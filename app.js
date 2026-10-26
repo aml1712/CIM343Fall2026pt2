@@ -3,6 +3,10 @@ const app = express(); //app variable becomes how you access express framework
 const port = 3000; //creates port
 
 
+app.set("view engine", "hbs");
+app.use(express.static("public"));
+
+
 app.get("/", (req, res)=>{
     res.send("Hello from express");
 
@@ -14,11 +18,19 @@ app.get("/hello", (req,res)=>{
     res.send("hello world"); 
 })
 
+//looks for home.hbs symbolic link
+app.get("/home", (req, res)=>{
+    res.render("home", {title: "My home page"});
+
+})
+
 //adds token when name is entered to end of link
 app.get("/:name", (req,res)=>{
     res.send("My name is: " + req.params.name);
 
 })
+
+
 
 
 
