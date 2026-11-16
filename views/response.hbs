@@ -1,15 +1,32 @@
-<!--
-<h1>{{title}}</h1>
-<p>Name: {{name}}</p>
-<p>Animal: {{animal}}</p>
--->
+
+<h1>Thank you for completing the Survey!</h1>
+<h2> Find your answers below!</h2>
+
+<p>Favorite Team: {{team}}</p>
+<p>Favorite Player: {{player}}</p>
+
+
+
+
+
+
 <!-- Voting display data -->
-<h2>Your vote totals</h2>
+<h2>Favorite Team Vote Totals</h2>
 <ul>
-  {{#each votes}}
+  {{#each teamVotes}}
     <li>{{@key}}: {{this}}</li>
   {{/each}}
 </ul>
+
+<h2>Favorite Player Vote Totals</h2>
+<ul>
+  {{#each playerVotes}}
+    <li>{{@key}}: {{this}}</li>
+  {{/each}}
+</ul>
+
+
+
 <a href="/form">Vote again</a> | <button id="clearBtn">Clear my votes</button>
 <p id="message"></p>
 <script>

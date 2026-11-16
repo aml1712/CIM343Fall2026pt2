@@ -1,11 +1,36 @@
+<h1> Basketball Survey </h1>
+<p> Vote on your Favorite Team & Players! </p>
+
 <form method="POST" action="/form">
-  <label for="name">Your name:</label>
-  <input type="text" name="name" id="name">
-  <label for="animal">Choose an animal:</label>
-  <select name="animal" id="animal">
-    <option value="narwhal">narwhal</option>
-    <option value="penguin">penguin</option>
-    <option value="seal">seal</option>
+
+
+  <label for="team">What's your favorite NBA team? </label>
+  <select name="team" id="team">
+    <option value="Miami Heat">Miami Heat</option>
+    <option value="Los Angeles Lakers">Los Angeles Lakers</option>
+    <option value="Golden State Warriors">Golden State Warriors</option>
+    <option value="New York Knicks">New York Knicks</option>
+    <option value="Washington Wizards">Washington Wizards</option>
+    <option value="Philly 76ers">Philly 76ers</option>
+    <option value="Other">Other</option>
   </select>
+
+  <br><br>
+
+   <label for="team">Who's your favorite NBA Player? </label>
+  <select name="player" id="player">
+    <option value="Giannis Antetokounmpo">Giannis Antetokounmpo</option>
+    <option value="Lebron James">Lebron James</option>
+    <option value="Steph Curry">Steph Curry</option>
+    <option value="Kevin Durant">Kevin Durant</option>
+    <option value="Dwayne Wade">Dwayne Wade</option>
+    <option value="Draymond Green">Draymond Green</option>
+    <option value="Jordan Poole">Jordan Poole</option>
+    <option value="Other">Other</option>
+  </select>
+
+  <br><br>
+
   <button type="submit">Submit</button> <!--button is a UI regular button, no actions. Type Sumbit Button sends http request!-->
+
 </form>
