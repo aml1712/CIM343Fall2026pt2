@@ -30,6 +30,170 @@ app.get("/form", (req, res)=>{
 });
 
 
+//TRACKER APP ASSIGNMENT CODE PART 1
+app.get("/tracker/v1", (req, res) => {
+    res.send(`
+
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <title>CoastalSteps | Daily Tracker</title>
+
+            <style>
+            * {
+                    box-sizing: border-box;
+                }
+
+                body {
+                    margin: 0;
+                    font-family: Arial, sans-serif;
+                    background: #eaf5fa;
+                    color: #193c54;
+                }
+
+                header {
+                    background: linear-gradient(135deg, #b8e1ef, #6bb5d0);
+                    padding: 35px 20px;
+                    text-align: center;
+                }header h1 {
+                    margin: 0;
+                    font-size: 36px;
+                    color: #174d6b;
+                }
+
+                header p {
+                    color: #285d76;
+                }
+
+                .container {
+                    max-width: 550px;
+                    margin: 40px auto;
+                    padding: 30px;
+                    background: white;
+                    border-radius: 20px;
+                    box-shadow: 0 5px 20px rgba(40, 100, 130, 0.10);
+                }
+
+                h2 {
+                    margin-top: 0;
+                    color: #236b8e;
+                }
+
+                label {
+                    display: block;
+                    margin-top: 20px;
+                    margin-bottom: 8px;
+                    font-weight: bold;
+                } input, select {
+                    width: 100%;
+                    padding: 13px;
+                    border: 1px solid #c5dfe9;
+                    border-radius: 10px;
+                    font-size: 16px;
+                    background: #f7fbfd;
+                }
+
+                button {
+                    width: 100%;
+                    margin-top: 25px;
+                    padding: 15px;
+                    border: none;
+                    border-radius: 12px;
+                    background: #398eb5;
+                    color: white;
+                    font-size: 16px;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+
+                button:hover {
+                    background: #246c91;
+                }
+
+                .dashboard-link {
+                    display: block;
+                    text-align: center;
+                    margin-top: 20px;
+                    color: #398eb5;
+                    text-decoration: none;
+                }
+
+            </style>
+        </head>
+
+        <body>
+
+            <header>
+                <h1>CoastSteps</h1>
+                <p>Move with the rhythm of the coast.</p>
+            </header>
+
+            <div class="container">
+
+                <h2>Log Your Activity</h2>
+
+                <p>Keep track of your daily movement and progress.</p>
+
+                <form action="/tracker/v1" method="POST">
+
+                    <label for="date">Activity Date</label>
+                    <input type="date" id="date" name="date" required>
+
+                    <label for="steps">Number of Steps</label>
+                    <input type="number" id="steps" name="steps"
+                        placeholder="Enter your steps"
+                        min="1" step="1" required>
+
+                    <label for="activity">Activity Type</label>
+
+                    <select id="activity" name="activity" required>
+
+                        <option value="">Select activity</option>
+                        <option value="Walking">Walking</option>
+                        <option value="Running">Running</option>
+                        <option value="Hiking">Hiking</option>
+                        <option value="Treadmill">Treadmill</option>
+                        <option value="Other">Other</option>
+
+                    </select>
+
+                    <button type="submit">Save Entry</button>
+
+                </form>
+
+                <a class="dashboard-link" href="/tracker/v1/dashboard">
+                    View My Dashboard
+                </a>
+
+            </div>
+
+        </body>
+        </html>
+
+    `);
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
