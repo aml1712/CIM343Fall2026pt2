@@ -14,7 +14,7 @@ I decided to track daily steps because I've been recently trying to hit 10,000 s
 [Prompt v1](tracker-docs/prompt-v1.md)
 ![v1 form](tracker-docs/images/v1-form.png) //SCREENSHOT 1
 
-![v1 dashboard](tracker-docs/images/v1-dashboard.png) //SCREENSHOT 2
+![v1 dashboard](tracker-docs/images/coastStepsDashboard1.png) //SCREENSHOT 2
 
 **What worked / what didn't:**
 ...
