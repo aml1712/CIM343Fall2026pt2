@@ -12,19 +12,34 @@ I decided to track daily steps because I've been recently trying to hit 10,000 s
 
 ## Version 1 (prompt v1)
 [Prompt v1](tracker-docs/prompt-v1.md)
-![v1 form](tracker-docs/images/v1-form.png) //SCREENSHOT 1
+![v1 form](tracker-docs/images/v1-form.png) Version 1 Data Form
 
-![v1 dashboard](tracker-docs/images/coastStepsDashboard1.png) //SCREENSHOT 2
+![v1 dashboard](tracker-docs/images/coastStepsDashboard1.png) Version 1 Dashboard
 
 **What worked / what didn't:**
-...
+- When I add more than 10,000 steps for a daily entry, the percentage of my goal completed goes past 100% 
+    - for example, if I add 10,500 steps, it says "105% of your 10,000 step goal has been completed!"
+        - I want it to cap out at 100% instead
+
+- The first chart (daily steps over time) displays the dates in YYYY-MM-DD fashion
+    - I want it to be DD/MM/YYYY instead
+
+- The 'recent activity' list does the same format with the dates, I want it also displayed in dd/mm/yyyy format
+
+- I don't love how the 'daily steps over time' chart displays the weekly data, and right now the month and year buttons aren't changing the data layout correctly
+
+- the entire visual I wanted (waves) was never included in the code
+
+
+
+
 
 ## Version 2 – Final (prompt v2)
 [Prompt v2](tracker-docs/prompt-v2.md)
 
-![v2 form](tracker-docs/images/v2-form.png) //SCREENSHOT 3
+![v2 form](CoastStepsV2.png) Version 2 Data Form
 
-![v2 dashboard](tracker-docs/images/v2-dashboard.png) //SCREENSHOT 4
+![v2 dashboard](tracker-docs/images/v2-dashboard.png) Version 2 Dashboard
 
 ![My cookie in DevTools](tracker-docs/images/v2-cookie-devtools.png) //SCREENSHOT 5
 
@@ -32,9 +47,7 @@ I decided to track daily steps because I've been recently trying to hit 10,000 s
 ...
 
 **Hand edits I made (if any):**
-- changed the title from CoastSteps to Coastal Steps
-- changed headline from "Move with the Rhythm of the Coast" to "Move with the rythm of the waves"
-- 
+- Created a specific color & font scheme for the AI chat to follow
 
 ## How my code works (in my own words)
 
