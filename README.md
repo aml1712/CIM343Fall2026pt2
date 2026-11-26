@@ -37,9 +37,13 @@ I decided to track daily steps because I've been recently trying to hit 10,000 s
 ## Version 2 – Final (prompt v2)
 [Prompt v2](tracker-docs/prompt-v2.md)
 
-![v2 form](CoastStepsV2.png) Version 2 Data Form
+![v2 dashboard](tracker-docs/images/CoastStepsV2png) Version 2 Data Form
 
-![v2 dashboard](tracker-docs/images/v2-dashboard.png) Version 2 Dashboard
+![v2 dashboard](tracker-docs/images/v2-dashBoard1.png) Version 2 Dashboard 1
+![v2 dashboard](tracker-docs/images/v2-dashBoard2.png) Version 2 Dashboard 2
+![v2 dashboard](tracker-docs/images/v2-dashBoard3.png) Version 2 Dashboard 3
+![v2 dashboard](tracker-docs/images/v2-dashBoard4.png) Version 2 Dashboard 4
+
 
 ![My cookie in DevTools](tracker-docs/images/v2-cookie-devtools.png) //SCREENSHOT 5
 
