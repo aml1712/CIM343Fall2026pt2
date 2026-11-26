@@ -12,9 +12,12 @@ I decided to track daily steps because I've been recently trying to hit 10,000 s
 
 ## Version 1 (prompt v1)
 [Prompt v1](tracker-docs/prompt-v1.md)
-![v1 form](tracker-docs/images/v1-form.png) Version 1 Data Form
 
-![v1 dashboard](tracker-docs/images/coastStepsDashboard1.png) Version 1 Dashboard
+Version 1 Data Form:
+![v1 form](tracker-docs/images/v1-form.png)
+
+Version 1 Dashboard:
+![v1 dashboard](tracker-docs/images/coastStepsDashboard1.png)
 
 **What worked / what didn't:**
 - When I add more than 10,000 steps for a daily entry, the percentage of my goal completed goes past 100% 
@@ -37,15 +40,17 @@ I decided to track daily steps because I've been recently trying to hit 10,000 s
 ## Version 2 – Final (prompt v2)
 [Prompt v2](tracker-docs/prompt-v2.md)
 
-![v2 dashboard](tracker-docs/images/CoastStepsV2.png) Version 2 Data Form
+Version 2 Data Form: 
+![v2 dashboard](tracker-docs/images/CoastStepsV2.png)
 
-![v2 dashboard](tracker-docs/images/dashBoard1.png) Version 2 Dashboard 1
-![v2 dashboard](tracker-docs/images/dashBoard2.png) Version 2 Dashboard 2
-![v2 dashboard](tracker-docs/images/dashBoard3.png) Version 2 Dashboard 3
-![v2 dashboard](tracker-docs/images/dashBoard4.png) Version 2 Dashboard 4
+Version 2 Dashboard:
+![v2 dashboard](tracker-docs/images/dashBoard1.png) 
+![v2 dashboard](tracker-docs/images/dashBoard2.png) 
+![v2 dashboard](tracker-docs/images/dashBoard3.png)
+![v2 dashboard](tracker-docs/images/dashBoard4.png)
 
 
-![My cookie in DevTools](tracker-docs/images/v2-cookie-devtools.png) //SCREENSHOT 5
+![My cookie in DevTools](tracker-docs/images/v2-cookie-devtools.png)
 
 **Biggest change from v1 to v2, and why it helped:**
 ...
